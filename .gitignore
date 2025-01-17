@@ -178,3 +178,4 @@ cython_debug/
 
 
 starfish-detection-data/
+lightning_logs/
