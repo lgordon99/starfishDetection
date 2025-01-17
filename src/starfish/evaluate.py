@@ -25,7 +25,6 @@ DEVICE = torch.device("cuda" if torch.cuda.is_available() else "mps" if torch.ba
 
 def evaluate(model_checkpoint: str) -> None:
     """Evaluate a trained model."""
-    print("Evaluating like my life depended on it")
     print(model_checkpoint)
 
     model = FasterRCNNLightning().to(DEVICE)
